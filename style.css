@@ -10,8 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
-  /* background: linear-gradient(to right, #11998e, #38ef7d); */
+  /* background: whitesmoke; */
+  background: linear-gradient(to right, #11998e, #38ef7d);
 }
 
 .calculator {
@@ -110,7 +110,7 @@ button:focus {
 .equal-sign {
   grid-column: -2;
   grid-row: 2 / span 4;
-  background: rgb(13, 206, 87);
+  background: #11998e;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
